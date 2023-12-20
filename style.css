@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.back2{
+    height: 90vh;
+    display: flex; 
+    position: relative;   
+}
+.pista{
+    height: 90vh;
+    background-color: rgb(165, 227, 165);
+    width: 40%;
+}
+.card{
+    position: absolute;    
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.8);   
+    height: 600px;
+    width: 80%;
+    margin-left: 90px;
+    margin-top: 60px; 
+    background-color: white;
+    
+}
+
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.footer h2{
+    font-weight: 10;
+}
+.footer h2 span{
+    font-weight: 900;
+}
+.nav h3{
+    font-size: 35px;
+    color: rgb(127, 242, 255);
+}
+.nav{
+    display: flex;
+    justify-content: space-between; 
+    height: 80px;   
+}
+li{
+    display: inline;
+    margin-inline: 35px;
+    font-size: 25px;  
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color: rgb(127, 242, 255);
+}
+.aboutus{
+    margin-top: 100px;
+    height:400px;
+    width: auto;    
+    display: flex;    
+}
+.cont{
+    height:350px;
+    width: 500px;    
+    margin-left: 100px;
+    
+}
+.cont h1{
+    font-size: 75px;
+    color: rgb(15, 15, 120);
+        
+}
+p{
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    color:  rgb(15, 15, 120);
+    font-weight: 500;
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(15, 15, 120);
+    color: white;
+    margin-top: 20px;
+}
+.imge img{
+    height: 400px;
+    margin-left: 200px;  
+
+}
